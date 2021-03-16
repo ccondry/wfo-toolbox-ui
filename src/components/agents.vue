@@ -24,9 +24,14 @@
     </div>
     <center>
       <b-field>
-        <button class="button is-success" @click="clickPortal">
+        <b-button
+        tag="a"
+        type="is-success"
+        :href="portalUrl"
+        target="_blank"
+        >
           Workforce Optimization Portal
-        </button>
+        </b-button>
       </b-field>
     </center>
 
