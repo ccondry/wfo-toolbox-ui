@@ -44,7 +44,7 @@ export default {
 
   data () {
     return {
-      portalUrl: 'https://se1.calabriodemo.com',
+      portalUrl: 'https://se1.cxintelligencesuite.com',
       clipboard: ''
     }
   },
